@@ -1,0 +1,41 @@
+@import '../abstract/_variaveis.scss';
+
+.flor {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+
+    .img-container {
+        margin-top: 30px;
+        width: 400px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .texto {
+        width: 450px;
+
+        h3 {
+            color: $cor-primaria;
+            font-size: $tamanho-subtitulo;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+
+        h4 {
+            font-size: $tamanho-subtitulo;
+            color: $cor-secundaria;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        p {
+            font-size: $tamanho-do-texto;
+            color: $cor-secundaria;
+            text-align: justify;
+        }
+    }
+}
